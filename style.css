@@ -1,0 +1,32 @@
+
+body{
+    background :rgb(71, 88, 72);
+}
+
+h1{
+    margin: 40px;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 150px;
+    font-weight: 900;
+    letter-spacing: absolute;
+    background: url(titlejungle.jpg) 50% 40%;
+    background-size: cover;
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+    padding: 10px;
+    animation: water 50s infinite;
+}
+
+@keyframes water {
+    from {
+        background-position: left 0 top 0;
+    }
+    to {
+        background-position: left 1000px top 0;
+
+    }
+}
+.search-bar {
+    width:500px;
+}
